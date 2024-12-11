@@ -1,0 +1,86 @@
+\documentclass[twoside]{article}
+\usepackage{fullpage}
+\usepackage[pdftex]{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{sectsty}
+\usepackage{fixltx2e}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[LO]{\emph{Cutter - CSI 370}}
+\fancyfoot[LE]{\emph{Research 1 - Project}}
+\fancyfoot[R] {\thepage}
+\renewcommand{\labelitemi}{$\diamond$}
+
+\begin{document}
+
+\begin{center}
+\large\textbf{CSI 370 Computer Architecture - Research 1} \\
+\large\textbf{Morse Code Translator and Telegrapher} \\
+Luke Cutter \\
+Champlain College \\[1em]
+\end{center}
+
+\noindent \textbf{What?} \\
+This project involves creating a morse code translator that takes an input and returns a morse.txt file with the correct Morse Code. The project also outputs tones in the pattern of the Morse Code, giving an extra layer of authenticity and challenge. \\ 
+
+\noindent \textbf{Why?} \\
+Morse Code is an almost two hundred year old piece of technological genius that revolutionized the way humans contacted each other with important information. By implementing Morse code in MASM assembly, this project will demonstrate an understnading of:
+\begin{itemize}
+\item Low-level programming concepts and hardware interaction
+\item Memory management in constrained environments
+\item CPU timing and optimization techniques
+\item Register preservation and proper reservation of shadow space for API calls \\ 
+\end{itemize}
+
+\noindent \textbf{How?} \\
+The development process will follow these major phases:
+\begin{itemize}
+\item Initial research into Morse Code and how to properly translate it.
+\item Implementation of a lookup table for characters in Morse Code
+\item Usage of Windows API calls such as Beep to create the tones for Morse Code
+\item Testing and optimization for hardware
+\end{itemize}
+
+Development will be tracked through these milestones to ensure project completion. Each phase will involve documentation of processes and challenges encountered, building toward the final technical report. \\ 
+
+\noindent \textbf{Challenges?} \\
+Major challenges this project will address include:
+\begin{itemize}
+\item Bringing together all of my knowledge learned during the semester to work on this difficult project
+\item Managing limited system buffer sizes and ensuring no spillover
+\item Managing shadow space for API calls
+\item Efficiently clearing the stack using pop and push \\ 
+\end{itemize}
+
+\noindent \textbf{Solutions?} \\
+To address these challenges, the project will:
+\begin{itemize}
+\item Utilize existing documentation and community resources for learning
+\item Plan memory usage and data structures before implementation
+\item Start with basic features and incrementally add complexity
+\item Use Stack Overflow to see where common issues lie to avoid the pitfalls \\ 
+\end{itemize}
+
+\noindent \textbf{Explanations and Visualizations} \\
+The technical report will include:
+\begin{itemize}
+\item Morse Code Alphabet mapped to a lookup table
+\item Input locations
+\item Outputted Morse code translated back into text
+\item Youtube Video showing operation
+\end{itemize}
+
+\noindent \textbf{Sources} \\
+\begin{itemize}
+\item http://www.moratech.com/aviation/morsecode.html
+\item https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list 
+\item https://stackoverflow.com/questions/20569984/windows-api-beep-function-in-nasm-assembly 
+\item https://morsecode.world/international/translator.html
+\end{itemize}
+
+\end{document}
