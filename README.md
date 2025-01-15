@@ -1,1 +1,2 @@
-# AssemblyFinal
+# Final For CSI-370 Computer Architecture / MASM Assembly
+This project is a morse code translator and telegrapher written in x86_64 MASM Assembly for CSI-370 Computer Architecture at Champlain College Semester 1, 2024-2025. It takes an input string and then translates the text into Morse Code dots (.) and dashes (-). After it is done processing it then uses Beep from the Windows API to do the telegraphy and play the tones associated with the dots and dashes for the correct ratio 1:3. 
